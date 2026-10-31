@@ -1,0 +1,2777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SPIDER GAMING</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #090909;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #151515;
+    padding: 25px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e62429;
+}
+
+.logo {
+    color: #ff2638;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #ff2638;
+}
+
+.hero {
+    padding: 110px 8%;
+    min-height: 450px;
+    background: linear-gradient(110deg, #090909, #380c13);
+}
+
+.hero h1 {
+    font-size: 65px;
+    margin: 20px 0;
+}
+
+.hero h1 span {
+    color: #ff2638;
+}
+
+.hero p {
+    color: #bbbbbb;
+    line-height: 1.8;
+    max-width: 500px;
+}
+
+.btn {
+    display: inline-block;
+    background: #e62429;
+    color: white;
+    padding: 15px 25px;
+    margin-top: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.games {
+    padding: 60px 8%;
+}
+
+.games h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.games h2 span {
+    color: #ff2638;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background: #181818;
+    padding: 30px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-color: #ff2638;
+    transform: translateY(-5px);
+}
+
+.card .emoji {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #aaa;
+    line-height: 1.6;
+}
+
+.community {
+    margin: 30px 8% 60px;
+    padding: 45px;
+    background: #1b1012;
+    text-align: center;
+    border: 1px solid #69212b;
+    border-radius: 8px;
+}
+
+.community h2 span {
+    color: #ff2638;
+}
+
+footer {
+    background: #151515;
+    padding: 25px;
+    text-align: center;
+    color: #888;
+}
+
+@media (max-width: 650px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav a {
+        margin: 0 7px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">SPIDER.</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#games">Games</a>
+        <a href="#community">Community</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+
+    <h1>ENTER THE<br>
+    <span>SPIDER VERSE.</span></h1>
+
+    <p>
+        Welcome to SPIDER Gaming.
+        Discover exciting games, explore new worlds
+        and experience gaming like never before.
+    </p>
+
+    <a href="#games" class="btn">EXPLORE GAMES →</a>
+
+</section>
+
+<section class="games" id="games">
+
+    <h2>FEATURED <span>GAMES</span></h2>
+
+    <p>Choose your next adventure.</p>
+
+    <div class="game-grid">
+
+        <div class="card">
+            <div class="emoji">⚽</div>
+            <h3>FOOTBALL ZONE</h3>
+            <p>Explore football games and challenges.</p>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🎯</div>
+            <h3>ACTION ARENA</h3>
+            <p>Discover action and adventure games.</p>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🏎️</div>
+            <h3>RACING WORLD</h3>
+            <p>Experience speed and racing challenges.</p>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🎮</div>
+            <h3>GAMING HUB</h3>
+            <p>Explore the world of gaming.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="community" id="community">
+
+    <h2>WELCOME TO THE <span>SPIDER COMMUNITY</span></h2>
+
+    <p>One platform. Endless adventures.</p>
+
+    <a href="#home" class="btn">BACK TO TOP ↑</a>
+
+</section>
+
+<footer>
+    <p>© 2026 SPIDER GAMING. All rights reserved.</p>
+</footer>
+
+<style>
+.game-hub {
+  padding: 60px 8%;
+  background: #090909;
+  color: white;
+}
+
+.game-hub h2 {
+  color: #ff2638;
+  font-size: 34px;
+  margin-bottom: 12px;
+}
+
+.game-search {
+  width: 100%;
+  padding: 15px;
+  margin: 25px 0;
+  background: #151515;
+  color: white;
+  border: 1px solid #ff2638;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.filters button {
+  padding: 12px 20px;
+  background: #151515;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.filters button.active,
+.filters button:hover {
+  background: #ff2638;
+  border-color: #ff2638;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.game-card {
+  background: #151515;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #292929;
+  transition: 0.3s;
+}
+
+.game-card:hover {
+  border-color: #ff2638;
+  transform: translateY(-5px);
+}
+
+.game-card h3 {
+  margin: 12px 0;
+  color: #ff5260;
+}
+
+.game-card p {
+  color: #bbb;
+  line-height: 1.5;
+}
+
+.game-card span {
+  font-size: 35px;
+}
+
+.game-card small {
+  color: #ff5260;
+}
+
+@media(max-width: 750px) {
+  .game-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(max-width: 450px) {
+  .game-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<section class="game-hub" id="games">
+
+<h2>THE SPIDER GAME HUB</h2>
+
+<p>Discover your next gaming adventure.</p>
+
+<input
+  type="text"
+  id="gameSearch"
+  class="game-search"
+  placeholder="Search for a game..."
+>
+
+<div class="filters">
+  <button class="active" data-filter="all">ALL GAMES</button>
+  <button data-filter="football">⚽ FOOTBALL</button>
+  <button data-filter="racing">🏎️ RACING</button>
+  <button data-filter="action">🎯 ACTION</button>
+  <button data-filter="arcade">🎮 ARCADE</button>
+</div>
+
+<div class="game-grid" id="gameGrid">
+
+  <div class="game-card" data-category="football">
+    <span>⚽</span>
+    <h3>Football Arena</h3>
+    <p>Enter the world of football gaming.</p>
+    <small>FOOTBALL</small>
+  </div>
+
+  <div class="game-card" data-category="racing">
+    <span>🏎️</span>
+    <h3>Speed Legends</h3>
+    <p>Experience exciting racing adventures.</p>
+    <small>RACING</small>
+  </div>
+
+  <div class="game-card" data-category="action">
+    <span>🎯</span>
+    <h3>Action Zone</h3>
+    <p>Explore action and adventure games.</p>
+    <small>ACTION</small>
+  </div>
+
+  <div class="game-card" data-category="arcade">
+    <span>🎮</span>
+    <h3>Arcade World</h3>
+    <p>Discover fun arcade experiences.</p>
+    <small>ARCADE</small>
+  </div>
+
+  <div class="game-card" data-category="racing">
+    <span>🏁</span>
+    <h3>Street Racers</h3>
+    <p>Discover the ultimate racing challenge.</p>
+    <small>RACING</small>
+  </div>
+
+  <div class="game-card" data-category="football">
+    <span>🏆</span>
+    <h3>Champions League</h3>
+    <p>Explore football challenges and competitions.</p>
+    <small>FOOTBALL</small>
+  </div>
+
+</div>
+
+<p id="noGames" style="display:none; margin-top:25px;">
+  No games found. Try another search.
+</p>
+
+</section>
+
+<script>
+const search = document.getElementById("gameSearch");
+const cards = document.querySelectorAll(".game-card");
+const buttons = document.querySelectorAll(".filters button");
+const noGames = document.getElementById("noGames");
+
+let activeCategory = "all";
+
+function filterGames() {
+  const term = search.value.toLowerCase();
+  let visible = 0;
+
+  cards.forEach(card => {
+    const matchesText =
+      card.innerText.toLowerCase().includes(term);
+
+    const matchesCategory =
+      activeCategory === "all" ||
+      card.dataset.category === activeCategory;
+
+    const show = matchesText && matchesCategory;
+
+    card.style.display = show ? "block" : "none";
+
+    if (show) visible++;
+  });
+
+  noGames.style.display = visible ? "none" : "block";
+}
+
+search.addEventListener("input", filterGames);
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    buttons.forEach(b => b.classList.remove("active"));
+
+    button.classList.add("active");
+    activeCategory = button.dataset.filter;
+
+    filterGames();
+  });
+});
+</script>
+<!-- SPIDER REFLEX + LEADERBOARD -->
+
+<style>
+.reflex-section {
+  background:#101010;
+  color:white;
+  padding:55px 8%;
+  text-align:center;
+}
+.reflex-section h2 {color:#ff2638;font-size:34px;}
+.reflex-input {
+  padding:13px;
+  background:#191919;
+  color:white;
+  border:1px solid #ff2638;
+  border-radius:7px;
+  width:90%;
+  max-width:320px;
+  margin:15px;
+}
+.reflex-board {
+  position:relative;
+  height:320px;
+  background:#191919;
+  border:2px solid #ff2638;
+  border-radius:12px;
+  margin:25px auto;
+  overflow:hidden;
+}
+#reflexTarget {
+  display:none;
+  position:absolute;
+  width:48px;
+  height:48px;
+  border-radius:50%;
+  background:#ff2638;
+  border:3px solid white;
+  cursor:pointer;
+}
+.reflex-btn {
+  padding:13px 25px;
+  background:#ff2638;
+  color:white;
+  border:0;
+  border-radius:7px;
+  cursor:pointer;
+  margin:8px;
+}
+.reflex-stats {
+  display:flex;
+  justify-content:center;
+  gap:35px;
+  margin:20px;
+  font-size:19px;
+}
+.leaderboard {
+  max-width:650px;
+  margin:45px auto;
+  background:#191919;
+  padding:25px;
+  border-radius:12px;
+  border:1px solid #333;
+}
+.leaderboard h3 {color:#ff2638;}
+.leaderboard table {
+  width:100%;
+  border-collapse:collapse;
+  margin-top:20px;
+}
+.leaderboard th,.leaderboard td {
+  padding:13px 8px;
+  border-bottom:1px solid #333;
+  text-align:center;
+}
+.leaderboard th {color:#ff5260;}
+#personalBest {color:#ff5260;font-weight:bold;}
+@media(max-width:450px) {
+  .reflex-stats {gap:15px;font-size:16px;}
+}
+</style>
+
+<section class="reflex-section" id="reflex">
+
+<h2>🕷️ SPIDER REFLEX</h2>
+<p>Play. Score. Dominate the leaderboard.</p>
+
+<input id="playerName" class="reflex-input"
+placeholder="Enter your player username" maxlength="16">
+
+<div class="reflex-stats">
+  <div>SCORE: <span id="reflexScore">0</span></div>
+  <div>TIME: <span id="reflexTime">20</span>s</div>
+</div>
+
+<p id="personalBest">PERSONAL BEST: 0</p>
+
+<div class="reflex-board" id="reflexBoard">
+  <button id="reflexTarget" aria-label="Hit target"></button>
+  <p id="reflexMessage" style="padding:115px 10px;">
+    ENTER YOUR NAME AND PRESS START!
+  </p>
+</div>
+
+<button class="reflex-btn" id="reflexStart">START GAME</button>
+
+<p id="reflexResult">Can you become the SPIDER champion?</p>
+
+<div class="leaderboard">
+  <h3>🏆 SPIDER TOP 10</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>RANK</th>
+        <th>PLAYER</th>
+        <th>SCORE</th>
+      </tr>
+    </thead>
+    <tbody id="leaderboardBody"></tbody>
+  </table>
+</div>
+
+</section>
+
+<script>
+const target = document.getElementById("reflexTarget");
+const board = document.getElementById("reflexBoard");
+const start = document.getElementById("reflexStart");
+const searchName = document.getElementById("playerName");
+const scoreText = document.getElementById("reflexScore");
+const timeText = document.getElementById("reflexTime");
+const message = document.getElementById("reflexMessage");
+const result = document.getElementById("reflexResult");
+const bestText = document.getElementById("personalBest");
+const leaderboardBody = document.getElementById("leaderboardBody");
+
+let score = 0;
+let time = 20;
+let playing = false;
+let timer;
+
+let records = JSON.parse(
+  localStorage.getItem("spiderLeaderboard") || "[]"
+);
+
+function saveRecords() {
+  localStorage.setItem(
+    "spiderLeaderboard",
+    JSON.stringify(records)
+  );
+}
+
+function showLeaderboard() {
+  leaderboardBody.innerHTML = "";
+
+  records.sort((a,b) => b.score - a.score);
+
+  if (records.length === 0) {
+    leaderboardBody.innerHTML =
+      '<tr><td colspan="3">No players yet. Be the first!</td></tr>';
+    return;
+  }
+
+  records.slice(0,10).forEach((player,index) => {
+    const row = document.createElement("tr");
+    const rank = document.createElement("td");
+    const name = document.createElement("td");
+    const points = document.createElement("td");
+
+    rank.textContent = index + 1;
+    name.textContent = player.name;
+    points.textContent = player.score;
+
+    row.append(rank,name,points);
+    leaderboardBody.appendChild(row);
+  });
+}
+async function refreshGlobalLeaderboard() {
+  const db = window.spiderSupabase;
+  if (!db) return;
+
+  const { data, error } = await db
+    .from("spider_scores")
+    .select("username, score")
+    .eq("game", "reflex")
+    .order("score", { ascending: false })
+    .limit(10);
+
+  if (error) {
+    console.log("Leaderboard error:", error.message);
+    return;
+  }
+
+  leaderboardBody.innerHTML = "";
+
+  if (!data.length) {
+    leaderboardBody.innerHTML =
+      '<tr><td colspan="3">No global scores yet!</td></tr>';
+    return;
+  }
+
+  data.forEach((player, index) => {
+    const row = document.createElement("tr");
+    const rank = document.createElement("td");
+    const name = document.createElement("td");
+    const points = document.createElement("td");
+
+    rank.textContent = index + 1;
+    name.textContent = player.username;
+    points.textContent = player.score;
+
+    row.append(rank, name, points);
+    leaderboardBody.appendChild(row);
+  });
+}
+
+async function saveGlobalScore(username, score) {
+  const db = window.spiderSupabase;
+  if (!db) return;
+
+  const { data: sessionData } =
+    await db.auth.getSession();
+
+  const user = sessionData.session?.user;
+
+  if (!user) {
+    result.textContent += " Log in to submit a global score.";
+    return;
+  }
+
+  const { data: player, error: profileError } =
+    await db.from("profiles")
+    .select("username")
+    .eq("id", user.id)
+    .maybeSingle();
+
+  if (profileError || !player) return;
+
+  const { error } = await db
+    .from("spider_scores")
+    .insert({
+      user_id: user.id,
+      username: player.username,
+      game: "reflex",
+      score: score
+    });
+
+  if (error) {
+    console.log("Score upload failed:", error.message);
+    return;
+  }
+
+  await refreshGlobalLeaderboard();
+}
+
+function showPersonalBest() {
+  const name = searchName.value.trim().toLowerCase();
+  const player = records.find(p =>
+    p.name.toLowerCase() === name
+  );
+
+  bestText.textContent =
+    "PERSONAL BEST: " + (player ? player.score : 0);
+}
+
+function moveTarget() {
+  const maxX = board.clientWidth - target.offsetWidth;
+  const maxY = board.clientHeight - target.offsetHeight;
+
+  target.style.left = Math.random() * maxX + "px";
+  target.style.top = Math.random() * maxY + "px";
+}
+
+searchName.addEventListener("input", showPersonalBest);
+
+start.addEventListener("click", () => {
+  if (playing) return;
+
+  const username = searchName.value.trim();
+
+  if (!username) {
+    alert("Please enter your username first!");
+    searchName.focus();
+    return;
+  }
+
+  score = 0;
+  time = 20;
+  playing = true;
+
+  scoreText.textContent = score;
+  timeText.textContent = time;
+  message.style.display = "none";
+  result.textContent = "GO! GO! GO!";
+
+  start.disabled = true;
+  target.style.display = "block";
+  showPersonalBest();
+  moveTarget();
+
+  timer = setInterval(() => {
+    time--;
+    timeText.textContent = time;
+
+    if (time <= 0) {
+      clearInterval(timer);
+      playing = false;
+const currentPlayer =
+localStorage.getItem("spiderCurrentPlayer");
+
+if (currentPlayer) {
+    const savedPlayers = JSON.parse(
+        localStorage.getItem("spiderPlayers") || "{}"
+    );
+
+    if (savedPlayers[currentPlayer]) {
+        savedPlayers[currentPlayer].games =
+            (savedPlayers[currentPlayer].games || 0) + 1;
+
+        localStorage.setItem(
+            "spiderPlayers",
+            JSON.stringify(savedPlayers)
+        );
+
+        const gamesDisplay =
+            document.getElementById("gamesPlayed");
+
+        if (gamesDisplay) {
+            gamesDisplay.textContent =
+                savedPlayers[currentPlayer].games;
+        }
+    }
+}
+
+      target.style.display = "none";
+      message.style.display = "block";
+      message.textContent = "TIME'S UP!";
+
+      start.disabled = false;
+
+      const oldRecord = records.find(p =>
+        p.name.toLowerCase() === username.toLowerCase()
+      );
+
+      if (!oldRecord) {
+        records.push({name:username,score:score});
+      } else if (score > oldRecord.score) {
+        oldRecord.score = score;
+      }
+
+      saveRecords();
+      showLeaderboard();
+      showPersonalBest();
+      saveGlobalScore(username, score);
+
+      result.textContent =
+        username + ", your score is " + score + "!";
+    }
+  },1000);
+});
+
+target.addEventListener("click", () => {
+  if (!playing) return;
+
+  score++;
+  scoreText.textContent = score;
+  moveTarget();
+});
+
+showLeaderboard();
+showPersonalBest();
+document.addEventListener("DOMContentLoaded", function() {
+  refreshGlobalLeaderboard();
+});
+</script>
+
+<!-- END SPIDER REFLEX + LEADERBOARD -->
+<!-- SPIDER PLAYER ACCOUNTS - SUPABASE VERSION -->
+
+<style>
+.spider-account {
+  background:#090909;
+  color:white;
+  padding:55px 8%;
+  text-align:center;
+}
+
+.spider-account h2 {
+  color:#ff2638;
+  font-size:34px;
+}
+
+.account-panel {
+  max-width:500px;
+  margin:25px auto;
+  padding:30px;
+  background:#171717;
+  border:1px solid #ff2638;
+  border-radius:12px;
+}
+
+.account-panel input {
+  width:90%;
+  padding:14px;
+  margin:10px 0;
+  background:#090909;
+  border:1px solid #444;
+  border-radius:7px;
+  color:white;
+  box-sizing:border-box;
+}
+
+.account-btn {
+  background:#ff2638;
+  color:white;
+  border:0;
+  padding:13px 25px;
+  margin:10px 5px;
+  border-radius:7px;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.account-btn:hover {
+  background:#d41427;
+}
+
+#spiderProfile {
+  display:none;
+}
+
+.profile-stat {
+  background:#242424;
+  padding:15px;
+  margin:12px 0;
+  border-radius:8px;
+}
+
+.account-message {
+  color:#ff5260;
+  min-height:24px;
+  overflow-wrap:anywhere;
+}
+</style>
+
+<section class="spider-account" id="playerAccount">
+
+<h2>🕷️ SPIDER PLAYER ZONE</h2>
+<p>Create your gaming identity.</p>
+
+<div class="account-panel" id="accountForm">
+
+<h3>CREATE YOUR PLAYER PROFILE</h3>
+
+<input
+  id="accountUsername"
+  type="text"
+  maxlength="16"
+  placeholder="Choose a username"
+  autocomplete="username"
+>
+
+<input
+  id="accountEmail"
+  type="email"
+  placeholder="Your email address"
+  autocomplete="email"
+>
+
+<input
+  id="accountPassword"
+  type="password"
+  placeholder="Password (minimum 8 characters)"
+  autocomplete="new-password"
+>
+
+<br>
+
+<button class="account-btn" id="registerPlayer">
+REGISTER PLAYER
+</button>
+
+<button class="account-btn" id="loginPlayer">
+RETURNING PLAYER
+</button>
+
+<p class="account-message" id="accountMessage"></p>
+
+</div>
+
+<div class="account-panel" id="spiderProfile">
+
+<h3>WELCOME TO SPIDER!</h3>
+
+<h2 id="profileName">PLAYER</h2>
+
+<div class="profile-stat">
+  GAMES PLAYED:
+  <strong id="gamesPlayed">0</strong>
+</div>
+
+<div class="profile-stat">
+  PERSONAL BEST:
+  <strong id="profileBest">0</strong>
+</div>
+
+<div class="profile-stat">
+  REFLEX RECORD:
+  <strong id="reflexRecord">0</strong>
+</div>
+
+<div class="profile-stat">
+  DODGE RECORD:
+  <strong id="dodgeRecord">0</strong>
+</div>
+
+<div class="profile-stat">
+  PLAYER RANK:
+  <strong id="playerRank">BEGINNER</strong>
+</div>
+
+<div class="profile-stat">
+  SPIDER PROGRESS:
+  <strong id="playerProgress">0%</strong>
+</div>
+
+<div class="profile-stat">
+  PLAYER STATUS:
+  <strong>ACTIVE</strong>
+</div>
+
+<button class="account-btn" id="logoutPlayer">
+LOG OUT
+</button>
+
+</div>
+
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+(async function() {
+
+const db = window.spiderSupabase;
+
+const usernameInput =
+document.getElementById("accountUsername");
+
+const emailInput =
+document.getElementById("accountEmail");
+
+const passwordInput =
+document.getElementById("accountPassword");
+
+const form =
+document.getElementById("accountForm");
+
+const profile =
+document.getElementById("spiderProfile");
+
+const message =
+document.getElementById("accountMessage");
+
+if (!db) {
+  message.textContent =
+    "Connection unavailable. Please refresh the page.";
+  return;
+}
+
+function showMessage(text) {
+  message.textContent = text;
+}
+
+async function ensureProfile(user) {
+
+  const { data: existing, error: readError } =
+    await db.from("profiles")
+    .select("id, username")
+    .eq("id", user.id)
+    .maybeSingle();
+
+  if (readError) throw readError;
+
+  if (existing) return existing;
+
+  const username =
+    user.user_metadata?.username ||
+    usernameInput.value.trim();
+
+  if (!username) {
+    throw new Error("Username is missing. Please contact support.");
+  }
+
+  const { data, error } =
+    await db.from("profiles")
+    .insert({
+      id: user.id,
+      username: username
+    })
+    .select("id, username")
+    .single();
+
+  if (error) throw error;
+
+  return data;
+}
+
+function showProfile(username) {
+
+  form.style.display = "none";
+  profile.style.display = "block";
+
+  document.getElementById("profileName").textContent =
+    username;
+
+  const records = JSON.parse(
+    localStorage.getItem("spiderLeaderboard") || "[]"
+  );
+
+  const record = records.find(
+    p => p.name.toLowerCase() === username.toLowerCase()
+  );
+
+  const reflexScore = record ? Number(record.score) : 0;
+
+  const dodgeScore = Number(
+    localStorage.getItem("spiderDodgeBest") || 0
+  );
+
+  const bestScore = Math.max(reflexScore, dodgeScore);
+
+  document.getElementById("profileBest").textContent =
+    bestScore;
+
+  document.getElementById("reflexRecord").textContent =
+    reflexScore;
+
+  document.getElementById("dodgeRecord").textContent =
+    dodgeScore;
+
+  const rank =
+    bestScore >= 80 ? "LEGEND" :
+    bestScore >= 50 ? "MASTER" :
+    bestScore >= 30 ? "PRO" :
+    bestScore >= 15 ? "ROOKIE" : "BEGINNER";
+
+  document.getElementById("playerRank").textContent =
+    rank;
+
+  document.getElementById("playerProgress").textContent =
+    Math.min(100, Math.floor(bestScore / 80 * 100)) + "%";
+
+  const oldPlayers = JSON.parse(
+    localStorage.getItem("spiderPlayers") || "{}"
+  );
+
+  const oldPlayer = oldPlayers[username.toLowerCase()];
+
+  document.getElementById("gamesPlayed").textContent =
+    oldPlayer ? oldPlayer.games || 0 : 0;
+}
+
+async function openPlayer(user) {
+
+  const player = await ensureProfile(user);
+
+  showProfile(player.username);
+  showMessage("");
+}
+
+document.getElementById("registerPlayer")
+.addEventListener("click", async function() {
+
+  const username = usernameInput.value.trim();
+  const email = emailInput.value.trim();
+  const password = passwordInput.value;
+
+  if (!/^[a-zA-Z0-9_]{3,16}$/.test(username)) {
+    showMessage("Username must be 3–16 characters. Use letters, numbers or underscores.");
+    return;
+  }
+
+  if (!email || !emailInput.checkValidity()) {
+    showMessage("Please enter a valid email address.");
+    return;
+  }
+
+  if (password.length < 8) {
+    showMessage("Password must have at least 8 characters.");
+    return;
+  }
+
+  showMessage("Creating your SPIDER account...");
+
+  try {
+
+    const { data, error } =
+      await db.auth.signUp({
+        email: email,
+        password: password,
+        options: {
+          data: {
+            username: username
+          }
+        }
+      });
+
+    if (error) throw error;
+
+    if (data.session && data.user) {
+      await openPlayer(data.user);
+      showMessage("Welcome to SPIDER! Account created.");
+    } else {
+      showMessage(
+        "Account created! Check your email to confirm your account, then log in."
+      );
+    }
+
+  } catch (error) {
+    showMessage(error.message);
+  }
+
+});
+
+document.getElementById("loginPlayer")
+.addEventListener("click", async function() {
+
+  const email = emailInput.value.trim();
+  const password = passwordInput.value;
+
+  if (!email || !password) {
+    showMessage("Enter your email and password to log in.");
+    return;
+  }
+
+  showMessage("Logging into SPIDER...");
+
+  try {
+
+    const { data, error } =
+      await db.auth.signInWithPassword({
+        email: email,
+        password: password
+      });
+
+    if (error) throw error;
+
+    await openPlayer(data.user);
+    showMessage("Welcome back!");
+
+  } catch (error) {
+    showMessage(error.message);
+  }
+
+});
+
+document.getElementById("logoutPlayer")
+.addEventListener("click", async function() {
+
+  const { error } = await db.auth.signOut();
+
+  if (error) {
+    showMessage(error.message);
+    return;
+  }
+
+  profile.style.display = "none";
+  form.style.display = "block";
+
+  passwordInput.value = "";
+  usernameInput.value = "";
+
+  showMessage("Successfully logged out.");
+
+});
+
+try {
+
+  const { data, error } =
+    await db.auth.getSession();
+
+  if (error) throw error;
+
+  if (data.session) {
+    await openPlayer(data.session.user);
+  }
+
+} catch (error) {
+  showMessage(error.message);
+}
+
+})();
+
+});
+</script>
+
+<!-- END SPIDER PLAYER ACCOUNTS -->
+<!-- SPIDER GAME LIBRARY -->
+
+<style>
+.spider-library {
+  background:#080808;
+  color:white;
+  padding:60px 7%;
+}
+
+.spider-library h2 {
+  color:#ff2638;
+  font-size:35px;
+}
+
+.library-search {
+  width:100%;
+  padding:15px;
+  margin:25px 0;
+  background:#171717;
+  border:1px solid #ff2638;
+  color:white;
+  border-radius:8px;
+  box-sizing:border-box;
+}
+
+.library-filters {
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-bottom:30px;
+}
+
+.library-filters button {
+  background:#191919;
+  color:white;
+  border:1px solid #444;
+  padding:12px 18px;
+  border-radius:7px;
+  cursor:pointer;
+}
+
+.library-filters button.active,
+.library-filters button:hover {
+  background:#ff2638;
+}
+
+.library-grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+}
+
+.library-card {
+  background:#171717;
+  border:1px solid #333;
+  border-radius:12px;
+  overflow:hidden;
+  transition:.3s;
+}
+
+.library-card:hover {
+  border-color:#ff2638;
+  transform:translateY(-5px);
+}
+
+.library-cover {
+  height:145px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:65px;
+  background:linear-gradient(135deg,#35000a,#151515);
+}
+
+.library-info {
+  padding:20px;
+}
+
+.library-info h3 {
+  color:#ff5260;
+}
+
+.library-info p {
+  color:#bbb;
+  min-height:42px;
+}
+
+.library-info button {
+  background:#ff2638;
+  color:white;
+  border:0;
+  padding:12px 20px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.library-info button:disabled {
+  background:#444;
+  cursor:not-allowed;
+}
+
+.library-status {
+  color:#ff5260;
+  font-size:12px;
+}
+
+@media(max-width:750px) {
+  .library-grid {
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media(max-width:480px) {
+  .library-grid {
+    grid-template-columns:1fr;
+  }
+}
+</style>
+
+<section class="spider-library" id="spiderLibrary">
+
+<h2>🕷️ SPIDER GAME LIBRARY</h2>
+<p>Find your next favourite game.</p>
+
+<input
+  class="library-search"
+  id="librarySearch"
+  placeholder="Search games..."
+>
+
+<div class="library-filters">
+
+<button class="active" data-category="all">ALL</button>
+<button data-category="arcade">ARCADE</button>
+<button data-category="football">FOOTBALL</button>
+<button data-category="racing">RACING</button>
+<button data-category="action">ACTION</button>
+
+</div>
+
+<div class="library-grid" id="libraryGrid">
+
+<div class="library-card" data-category="arcade">
+  <div class="library-cover">🎯</div>
+  <div class="library-info">
+    <span class="library-status">● PLAYABLE</span>
+    <h3>SPIDER REFLEX</h3>
+    <p>Test your speed and challenge your reaction time.</p>
+    <button onclick="document.getElementById('reflex').scrollIntoView({behavior:'smooth'})">
+      PLAY NOW
+    </button>
+  </div>
+</div>
+
+<div class="library-card" data-category="football">
+  <div class="library-cover">⚽</div>
+  <div class="library-info">
+    <span class="library-status">COMING SOON</span>
+    <h3>FOOTBALL ARENA</h3>
+    <p>Enter the football gaming universe.</p>
+    <button disabled>COMING SOON</button>
+  </div>
+</div>
+
+<div class="library-card" data-category="racing">
+  <div class="library-cover">🏎️</div>
+  <div class="library-info">
+    <span class="library-status">COMING SOON</span>
+    <h3>SPEED LEGENDS</h3>
+    <p>Discover the world of high-speed racing.</p>
+    <button disabled>COMING SOON</button>
+  </div>
+</div>
+
+<div class="library-card" data-category="action">
+  <div class="library-cover">🎯</div>
+  <div class="library-info">
+    <span class="library-status">COMING SOON</span>
+    <h3>ACTION ZONE</h3>
+    <p>Explore exciting action adventures.</p>
+    <button disabled>COMING SOON</button>
+  </div>
+</div>
+<div class="library-card" data-category="arcade">
+  <div class="library-cover">🕷️</div>
+  <div class="library-info">
+    <span class="library-status">● PLAYABLE</span>
+    <h3>SPIDER DODGE</h3>
+    <p>Dodge falling meteors and beat your record.</p>
+    <button onclick="document.getElementById('spiderDodge').scrollIntoView({behavior:'smooth'})">
+      PLAY NOW
+    </button>
+  </div>
+</div>
+
+
+<div class="library-card" data-category="racing">
+  <div class="library-cover">🏁</div>
+  <div class="library-info">
+    <span class="library-status">COMING SOON</span>
+    <h3>STREET RACERS</h3>
+    <p>Get ready for the racing experience.</p>
+    <button disabled>COMING SOON</button>
+  </div>
+</div>
+
+</div>
+
+<p id="libraryEmpty" style="display:none;">
+  No games found. Try another search.
+</p>
+
+</section>
+
+<script>
+(function() {
+
+const search = document.getElementById("librarySearch");
+const cards = document.querySelectorAll(".library-card");
+const filters = document.querySelectorAll(".library-filters button");
+const empty = document.getElementById("libraryEmpty");
+
+let category = "all";
+
+function updateLibrary() {
+
+  const term = search.value.toLowerCase();
+  let count = 0;
+
+  cards.forEach(card => {
+
+    const matchesName =
+      card.innerText.toLowerCase().includes(term);
+
+    const matchesCategory =
+      category === "all" ||
+      card.dataset.category === category;
+
+    const visible = matchesName && matchesCategory;
+
+    card.style.display = visible ? "" : "none";
+
+    if (visible) count++;
+  });
+
+  empty.style.display = count ? "none" : "block";
+}
+
+search.addEventListener("input", updateLibrary);
+
+filters.forEach(button => {
+
+  button.addEventListener("click", () => {
+
+    filters.forEach(item =>
+      item.classList.remove("active")
+    );
+
+    button.classList.add("active");
+    category = button.dataset.category;
+
+    updateLibrary();
+  });
+
+});
+
+})();
+</script>
+
+<!-- END SPIDER GAME LIBRARY -->
+<!-- SPIDER DODGE GAME -->
+
+<style>
+.dodge-section {
+  background:#090909;
+  color:white;
+  padding:55px 7%;
+  text-align:center;
+}
+
+.dodge-section h2 {
+  color:#ff2638;
+  font-size:35px;
+}
+
+.dodge-board {
+  max-width:600px;
+  margin:25px auto;
+  border:2px solid #ff2638;
+  border-radius:12px;
+  overflow:hidden;
+  background:#050505;
+}
+
+#dodgeCanvas {
+  display:block;
+  width:100%;
+  height:auto;
+}
+
+.dodge-stats {
+  display:flex;
+  justify-content:center;
+  gap:35px;
+  font-size:19px;
+  margin:20px;
+}
+
+.dodge-btn {
+  padding:13px 25px;
+  background:#ff2638;
+  color:white;
+  border:0;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:bold;
+  margin:7px;
+}
+
+.dodge-controls {
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  margin:15px;
+}
+
+.dodge-controls button {
+  width:85px;
+  height:55px;
+  font-size:25px;
+  background:#222;
+  color:white;
+  border:1px solid #ff2638;
+  border-radius:10px;
+  touch-action:none;
+}
+
+#dodgeMessage {
+  color:#ff5260;
+  min-height:25px;
+}
+</style>
+
+<section class="dodge-section" id="spiderDodge">
+
+<h2>🕷️ SPIDER DODGE</h2>
+
+<p>Dodge the meteors. Survive. Set records!</p>
+
+<div class="dodge-stats">
+  <div>SCORE: <span id="dodgeScore">0</span></div>
+  <div>BEST: <span id="dodgeBest">0</span></div>
+</div>
+
+<div class="dodge-board">
+  <canvas id="dodgeCanvas"
+    width="600" height="320"></canvas>
+</div>
+
+<p id="dodgeMessage">PRESS START TO PLAY!</p>
+
+<button class="dodge-btn" id="dodgeStart">
+START GAME
+</button>
+
+<div class="dodge-controls">
+  <button id="dodgeLeft">←</button>
+  <button id="dodgeRight">→</button>
+</div>
+
+<p>PC: Use LEFT and RIGHT arrow keys.</p>
+<p>Phone: Hold the arrow buttons to move.</p>
+
+</section>
+
+<script>
+(function() {
+
+const canvas = document.getElementById("dodgeCanvas");
+const ctx = canvas.getContext("2d");
+
+const scoreText = document.getElementById("dodgeScore");
+const bestText = document.getElementById("dodgeBest");
+const message = document.getElementById("dodgeMessage");
+const start = document.getElementById("dodgeStart");
+
+let player;
+let meteors = [];
+let score = 0;
+let playing = false;
+let lastTime = 0;
+let spawnTime = 0;
+let animation;
+let keys = {left:false,right:false};
+
+let best = Number(
+  localStorage.getItem("spiderDodgeBest") || 0
+);
+
+bestText.textContent = best;
+
+function drawBackground() {
+  ctx.fillStyle = "#050505";
+  ctx.fillRect(0,0,600,320);
+
+  for(let i=0;i<35;i++) {
+    ctx.fillStyle = "#555";
+    ctx.fillRect((i*97)%600,(i*61)%320,2,2);
+  }
+}
+
+function drawPlayer() {
+  ctx.fillStyle = "#ff2638";
+  ctx.fillRect(player.x,player.y,38,38);
+
+  ctx.fillStyle = "white";
+  ctx.fillRect(player.x+9,player.y+9,7,7);
+  ctx.fillRect(player.x+23,player.y+9,7,7);
+}
+
+function drawMeteors() {
+  meteors.forEach(m => {
+    ctx.fillStyle = "#ff2638";
+    ctx.beginPath();
+    ctx.arc(m.x,m.y,m.size,0,Math.PI*2);
+    ctx.fill();
+
+    ctx.fillStyle = "#ff9b4a";
+    ctx.beginPath();
+    ctx.arc(m.x-4,m.y-4,4,0,Math.PI*2);
+    ctx.fill();
+  });
+}
+
+function draw() {
+  drawBackground();
+  drawMeteors();
+
+  if(player) drawPlayer();
+}
+
+function startGame() {
+
+  cancelAnimationFrame(animation);
+
+  player = {
+    x:281,
+    y:265,
+    speed:5
+  };
+
+  meteors = [];
+  score = 0;
+  spawnTime = 0;
+  lastTime = 0;
+  playing = true;
+
+  scoreText.textContent = 0;
+  message.textContent = "DODGE EVERYTHING!";
+  start.disabled = true;
+
+  draw();
+  animation = requestAnimationFrame(gameLoop);
+}
+
+function gameLoop(timestamp) {
+
+  if(!playing) return;
+
+  if(!lastTime) lastTime = timestamp;
+
+  const delta = Math.min(
+    (timestamp-lastTime)/16.67,2
+  );
+
+  lastTime = timestamp;
+
+  if(keys.left) {
+    player.x -= player.speed*delta;
+  }
+
+  if(keys.right) {
+    player.x += player.speed*delta;
+  }
+
+  player.x = Math.max(
+    0,Math.min(562,player.x)
+  );
+
+  spawnTime += delta;
+
+  if(spawnTime > 35) {
+    meteors.push({
+      x:Math.random()*570+15,
+      y:-20,
+      size:12+Math.random()*8,
+      speed:2.5+Math.random()*2
+    });
+
+    spawnTime = 0;
+  }
+
+  meteors.forEach(m => {
+    m.y += m.speed*delta;
+  });
+
+  meteors = meteors.filter(m => m.y < 350);
+
+  score += delta/60;
+
+  scoreText.textContent = Math.floor(score);
+
+  for(const m of meteors) {
+
+    const nearestX = Math.max(
+      player.x,
+      Math.min(m.x,player.x+38)
+    );
+
+    const nearestY = Math.max(
+      player.y,
+      Math.min(m.y,player.y+38)
+    );
+
+    const dx = m.x-nearestX;
+    const dy = m.y-nearestY;
+
+    if(dx*dx+dy*dy < m.size*m.size) {
+      endGame();
+      return;
+    }
+  }
+
+  draw();
+
+  animation = requestAnimationFrame(gameLoop);
+}
+async function submitDodgeScore(finalScore) {
+
+  const db = window.spiderSupabase;
+
+  if (!db) {
+    console.error("Supabase connection missing");
+    return;
+  }
+
+  const { data: { session }, error: sessionError } =
+    await db.auth.getSession();
+
+  if (sessionError || !session) {
+    message.textContent += " | Sign in to save globally.";
+    return;
+  }
+
+  const { data: profile, error: profileError } =
+    await db.from("profiles")
+      .select("username")
+      .eq("id", session.user.id)
+      .single();
+
+  if (profileError || !profile) {
+    console.error(profileError);
+    return;
+  }
+
+  const { error } = await db.from("spider_scores").insert({
+    user_id: session.user.id,
+    username: profile.username,
+    game: "dodge",
+    score: finalScore
+  });
+
+  if (error) {
+    console.error("Dodge score upload failed:", error);
+    message.textContent += " | Global upload failed.";
+  } else {
+    message.textContent += " | GLOBAL SCORE SAVED! 🌍";
+  }
+}
+
+function endGame() {
+
+  playing = false;
+
+  cancelAnimationFrame(animation);
+
+  const finalScore = Math.floor(score);
+  submitDodgeScore(finalScore);
+
+  if(finalScore > best) {
+    best = finalScore;
+
+    localStorage.setItem(
+      "spiderDodgeBest",best
+    );
+
+    message.textContent =
+      "NEW PERSONAL RECORD! 🏆 SCORE: " + finalScore;
+  } else {
+    message.textContent =
+      "GAME OVER! FINAL SCORE: " + finalScore;
+  }
+
+  bestText.textContent = best;
+  start.disabled = false;
+  draw();
+}
+
+start.addEventListener("click",startGame);
+
+document.addEventListener("keydown",e => {
+
+  if(e.key === "ArrowLeft" || e.key === "ArrowRight") {
+    e.preventDefault();
+  }
+
+  if(e.key === "ArrowLeft") keys.left = true;
+  if(e.key === "ArrowRight") keys.right = true;
+
+});
+
+document.addEventListener("keyup",e => {
+  if(e.key === "ArrowLeft") keys.left = false;
+  if(e.key === "ArrowRight") keys.right = false;
+});
+
+function bindButton(id,direction) {
+
+  const button = document.getElementById(id);
+
+  button.addEventListener("pointerdown",e => {
+    e.preventDefault();
+    keys[direction] = true;
+  });
+
+  button.addEventListener("pointerup",() => {
+    keys[direction] = false;
+  });
+
+  button.addEventListener("pointerleave",() => {
+    keys[direction] = false;
+  });
+
+  button.addEventListener("pointercancel",() => {
+    keys[direction] = false;
+  });
+}
+
+bindButton("dodgeLeft","left");
+bindButton("dodgeRight","right");
+
+drawBackground();
+
+})();
+</script>
+
+<!-- END SPIDER DODGE -->
+<!-- ================================= -->
+<!-- SPIDER MISSION 8: VISUAL OVERHAUL -->
+<!-- ================================= -->
+
+<style>
+
+/* GLOBAL DESIGN */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+body {
+    background: #08080c;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVIGATION BAR */
+.spider-nav {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 16px 5%;
+    background: rgba(8,8,12,0.97);
+    border-bottom: 1px solid #ff2525;
+    backdrop-filter: blur(12px);
+}
+
+.spider-nav .brand {
+    color: #ff2525;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+.spider-nav .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.spider-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.spider-nav a:hover {
+    color: #ff2525;
+    text-shadow: 0 0 12px red;
+}
+
+/* SECTION HEADINGS */
+h1, h2, h3 {
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #ff2525;
+    text-transform: uppercase;
+}
+
+/* HERO AREA */
+.spider-hero {
+    text-align: center;
+    padding: 90px 20px;
+    background:
+      radial-gradient(circle at center,
+      rgba(255,0,0,0.18), transparent 65%);
+}
+
+.spider-hero h1 {
+    font-size: clamp(42px, 8vw, 85px);
+    font-weight: 1000;
+    color: white;
+    text-shadow: 0 0 20px rgba(255,0,0,0.5);
+}
+
+.spider-hero p {
+    color: #bdbdbd;
+    font-size: 17px;
+}
+
+/* BUTTONS */
+button, .spider-button {
+    background: #ff2525;
+    color: white;
+    border: none;
+    padding: 13px 24px;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, .spider-button:hover {
+    background: #d60000;
+    box-shadow: 0 0 20px rgba(255,0,0,0.6);
+    transform: translateY(-3px);
+}
+
+/* GAME CARDS */
+.library-card,
+.game-card,
+.zone-card {
+    background: linear-gradient(145deg,#191919,#0d0d12);
+    border: 1px solid #292929;
+    border-radius: 14px;
+    padding: 22px;
+    transition: 0.3s ease;
+}
+
+.library-card:hover,
+.game-card:hover,
+.zone-card:hover {
+    transform: translateY(-7px);
+    border-color: #ff2525;
+    box-shadow: 0 8px 25px rgba(255,0,0,0.16);
+}
+
+/* INPUTS */
+input, select, textarea {
+    background: #151515;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 7px;
+    padding: 12px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #ff2525;
+    box-shadow: 0 0 8px rgba(255,0,0,0.3);
+}
+
+/* GAME SECTIONS */
+section {
+    scroll-margin-top: 90px;
+}
+
+/* FOOTER */
+.spider-footer {
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 50px;
+    border-top: 1px solid #292929;
+    color: #888;
+}
+
+/* MOBILE DESIGN */
+@media(max-width: 650px) {
+    .spider-nav {
+        justify-content: center;
+    }
+
+    .spider-nav .links {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .spider-nav a {
+        font-size: 11px;
+    }
+
+    .spider-hero {
+        padding: 60px 15px;
+    }
+}
+
+</style>
+
+<!-- SPIDER NAVIGATION -->
+<nav class="spider-nav">
+    <div class="brand">SPIDER</div>
+
+    <div class="links">
+        <a href="#">HOME</a>
+        <a href="#games">ZONES</a>
+        <a href="#spiderLibrary">GAMES</a>
+        <a href="#reflex">REFLEX</a>
+        <a href="#spiderDodge">DODGE</a>
+        <a href="#playerAccount">ACCOUNT</a>
+    </div>
+</nav>
+
+<!-- SPIDER HERO -->
+<div class="spider-hero">
+    <h1>WELCOME TO SPIDER</h1>
+
+    <p>PLAY. COMPETE. CONQUER.</p>
+
+    <a href="#spiderLibrary">
+        <button>EXPLORE GAMES</button>
+    </a>
+</div>
+
+<!-- SPIDER FOOTER -->
+<footer class="spider-footer">
+    <h3>SPIDER GAMING</h3>
+    <p>One platform. Endless entertainment.</p>
+    <p>© 2026 SPIDER. All Rights Reserved.</p>
+</footer>
+<!-- SPIDER MISSION 9: GAME LAUNCH SYSTEM -->
+
+<style>
+#spiderLaunch {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    background: rgba(0,0,0,0.94);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#spiderLaunch.active {
+    display: flex;
+}
+
+.launch-box {
+    background: #141414;
+    border: 2px solid #ff2525;
+    border-radius: 15px;
+    padding: 30px;
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(255,0,0,0.25);
+}
+
+.launch-box h2 {
+    color: #ff2525;
+    font-size: 30px;
+}
+
+.launch-box p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.launch-box button {
+    margin: 8px;
+}
+
+.launch-close {
+    background: #333;
+}
+</style>
+
+<div id="spiderLaunch">
+    <div class="launch-box">
+        <h2 id="launchTitle">SPIDER GAME</h2>
+        <p id="launchDescription">Get ready to play!</p>
+        <p id="launchInstructions"></p>
+
+        <button id="launchPlay">PLAY NOW</button>
+        <button class="launch-close" onclick="closeSpiderLaunch()">
+            CLOSE
+        </button>
+    </div>
+</div>
+
+<script>
+(function () {
+
+    const launchDescriptions = {
+        "SPIDER REFLEX": {
+            description: "Test your speed and reaction time. Hit as many targets as possible before time runs out.",
+            instructions: "Click the targets quickly. Your score is saved locally."
+        },
+
+        "SPIDER DODGE": {
+            description: "Avoid falling meteors and survive for as long as possible.",
+            instructions: "Use the arrow keys or on-screen controls to move."
+        },
+
+        "FOOTBALL ARENA": {
+            description: "A football gaming experience is coming to SPIDER.",
+            instructions: "This game is still being developed."
+        },
+
+        "SPEED LEGENDS": {
+            description: "Get ready for a racing experience.",
+            instructions: "This game is still being developed."
+        },
+
+        "ACTION ZONE": {
+            description: "An action-packed gaming experience awaits.",
+            instructions: "This game is still being developed."
+        },
+
+        "STREET RACERS": {
+            description: "Get ready to race through the streets.",
+            instructions: "This game is still being developed."
+        }
+    };
+
+    const launchScreen = document.getElementById("spiderLaunch");
+    const title = document.getElementById("launchTitle");
+    const description = document.getElementById("launchDescription");
+    const instructions = document.getElementById("launchInstructions");
+    const playButton = document.getElementById("launchPlay");
+
+    let selectedGame = "";
+
+    window.closeSpiderLaunch = function () {
+        launchScreen.classList.remove("active");
+    };
+
+    document.querySelectorAll(".library-card").forEach(card => {
+
+        const heading = card.querySelector("h3");
+        if (!heading) return;
+
+        const gameName = heading.textContent.trim().toUpperCase();
+
+        card.addEventListener("click", function (event) {
+            if (event.target.closest("button, a")) return;
+
+            openGame(gameName);
+        });
+
+        const buttons = card.querySelectorAll("button, a");
+
+        buttons.forEach(button => {
+            const label = button.textContent.trim().toUpperCase();
+
+            if (label.includes("PLAY") || label.includes("COMING SOON")) {
+                button.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    openGame(gameName);
+                });
+            }
+        });
+    });
+
+    function openGame(gameName) {
+        selectedGame = gameName;
+
+        const game = launchDescriptions[gameName] || {
+            description: "Welcome to " + gameName + ".",
+            instructions: "More details coming soon."
+        };
+
+        title.textContent = gameName;
+        description.textContent = game.description;
+        instructions.textContent = game.instructions;
+
+        if (gameName === "SPIDER REFLEX" || gameName === "SPIDER DODGE") {
+            playButton.style.display = "inline-block";
+        } else {
+            playButton.style.display = "none";
+        }
+
+        launchScreen.classList.add("active");
+    }
+
+    playButton.addEventListener("click", function () {
+        closeSpiderLaunch();
+
+        if (selectedGame === "SPIDER REFLEX") {
+            document.getElementById("reflex").scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+
+        if (selectedGame === "SPIDER DODGE") {
+            document.getElementById("spiderDodge").scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+    });
+
+})();
+</script>
+
+<!-- END MISSION 9 -->
+<!-- ================================= -->
+<!-- SPIDER MISSION 11: BOSS FIGHT -->
+<!-- ================================= -->
+
+<style>
+#spiderBoss {
+    background: #090909;
+    color: white;
+    padding: 55px 15px;
+    text-align: center;
+}
+
+#spiderBoss h2 {
+    color: #ff2525;
+    font-size: 34px;
+}
+
+.boss-arena {
+    max-width: 650px;
+    margin: 25px auto;
+    padding: 25px;
+    background: linear-gradient(145deg,#191919,#080808);
+    border: 2px solid #ff2525;
+    border-radius: 16px;
+    box-shadow: 0 0 25px rgba(255,0,0,.2);
+}
+
+.boss-character {
+    font-size: 85px;
+    margin: 20px;
+    animation: bossFloat 2s infinite ease-in-out;
+}
+
+@keyframes bossFloat {
+    50% { transform: translateY(-10px); }
+}
+
+.boss-health {
+    height: 17px;
+    background: #333;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px 0 20px;
+}
+
+.boss-health-fill {
+    height: 100%;
+    width: 100%;
+    background: #ff2525;
+    transition: width .3s;
+}
+
+.player-health-fill {
+    background: #19c46b;
+}
+
+.boss-actions button {
+    margin: 7px;
+    min-width: 115px;
+}
+
+.boss-actions button:disabled {
+    opacity: .4;
+    cursor: not-allowed;
+}
+
+#bossMessage {
+    min-height: 55px;
+    color: #ff5555;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.boss-score {
+    color: #ff2525;
+    font-size: 20px;
+    font-weight: bold;
+}
+</style>
+
+<section id="spiderBoss">
+
+    <h2>👾 SPIDER BOSS FIGHT</h2>
+
+    <p>Can you defeat the ultimate robot boss?</p>
+
+    <div class="boss-arena">
+
+        <div class="boss-character">🤖</div>
+
+        <h3>THE RED TITAN</h3>
+
+        <p>BOSS HEALTH</p>
+
+        <div class="boss-health">
+            <div id="bossHealthBar"
+                 class="boss-health-fill"></div>
+        </div>
+
+        <p id="bossHealthText">100 / 100</p>
+
+        <hr>
+
+        <h3>🕷️ YOUR PLAYER</h3>
+
+        <p>PLAYER HEALTH</p>
+
+        <div class="boss-health">
+            <div id="playerHealthBar"
+                 class="boss-health-fill player-health-fill"></div>
+        </div>
+
+        <p id="playerHealthText">100 / 100</p>
+
+        <div class="boss-actions">
+
+            <button id="bossStart">START BATTLE</button>
+
+            <br>
+
+            <button id="bossAttack" disabled>
+                ⚔️ ATTACK
+            </button>
+
+            <button id="bossShield" disabled>
+                🛡️ SHIELD
+            </button>
+
+        </div>
+
+        <div id="bossMessage">
+            Press START BATTLE to begin!
+        </div>
+
+        <div class="boss-score">
+            🏆 BOSS WINS:
+            <span id="bossWins">0</span>
+        </div>
+
+    </div>
+
+</section>
+
+<script>
+(function () {
+
+    const boss = document.getElementById("bossHealthBar");
+    const player = document.getElementById("playerHealthBar");
+
+    const bossText = document.getElementById("bossHealthText");
+    const playerText = document.getElementById("playerHealthText");
+
+    const message = document.getElementById("bossMessage");
+
+    const start = document.getElementById("bossStart");
+    const attack = document.getElementById("bossAttack");
+    const shield = document.getElementById("bossShield");
+
+    const winsDisplay = document.getElementById("bossWins");
+
+    let bossHP = 100;
+    let playerHP = 100;
+    let active = false;
+    let defending = false;
+
+    let wins = Number(
+        localStorage.getItem("spiderBossWins") || 0
+    );
+
+    winsDisplay.textContent = wins;
+
+    function updateHealth() {
+
+        boss.style.width = bossHP + "%";
+        player.style.width = playerHP + "%";
+
+        bossText.textContent = bossHP + " / 100";
+        playerText.textContent = playerHP + " / 100";
+    }
+
+    function endBattle(won) {
+
+        active = false;
+
+        attack.disabled = true;
+        shield.disabled = true;
+
+        start.disabled = false;
+        start.textContent = "PLAY AGAIN";
+
+        if (won) {
+
+            wins++;
+
+            localStorage.setItem(
+                "spiderBossWins",
+                wins
+            );
+
+            winsDisplay.textContent = wins;
+
+            message.textContent =
+                "🏆 VICTORY! YOU DEFEATED THE RED TITAN!";
+
+        } else {
+
+            message.textContent =
+                "💥 GAME OVER! THE TITAN WON. TRY AGAIN!";
+
+        }
+    }
+
+    function bossTurn() {
+
+        let damage = Math.floor(Math.random() * 9) + 7;
+
+        if (defending) {
+            damage = Math.ceil(damage / 2);
+            defending = false;
+        }
+
+        playerHP = Math.max(0, playerHP - damage);
+
+        updateHealth();
+
+        message.textContent =
+            "THE TITAN ATTACKED! YOU LOST " +
+            damage + " HEALTH.";
+
+        if (playerHP <= 0) {
+            endBattle(false);
+        }
+    }
+
+    start.addEventListener("click", function () {
+
+        bossHP = 100;
+        playerHP = 100;
+        defending = false;
+        active = true;
+
+        updateHealth();
+
+        attack.disabled = false;
+        shield.disabled = false;
+
+        start.disabled = true;
+
+        message.textContent =
+            "BATTLE STARTED! MAKE YOUR MOVE!";
+
+    });
+
+    attack.addEventListener("click", function () {
+
+        if (!active) return;
+
+        const damage = Math.floor(Math.random() * 11) + 10;
+
+        bossHP = Math.max(0, bossHP - damage);
+
+        updateHealth();
+
+        message.textContent =
+            "⚔️ YOU HIT THE TITAN FOR " +
+            damage + " DAMAGE!";
+
+        if (bossHP <= 0) {
+            endBattle(true);
+            return;
+        }
+
+        bossTurn();
+
+    });
+
+    shield.addEventListener("click", function () {
+
+        if (!active) return;
+
+        defending = true;
+
+        message.textContent =
+            "🛡️ SHIELD ACTIVATED!";
+
+        bossTurn();
+
+    });
+
+    updateHealth();
+
+    // Add a shortcut to the existing navigation.
+    const navLinks = document.querySelector(
+        ".spider-nav .links"
+    );
+
+    if (navLinks) {
+
+        const link = document.createElement("a");
+
+        link.href = "#spiderBoss";
+        link.textContent = "BOSS FIGHT";
+
+        navLinks.appendChild(link);
+    }
+
+})();
+</script>
+
+<!-- END MISSION 11 -->
+<!-- ================================= -->
+<!-- SPIDER MISSION 12: GAME GRAPHICS -->
+<!-- ================================= -->
+
+<style>
+.spider-thumb {
+    height: 155px;
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    font-size: 75px;
+    background: linear-gradient(135deg,#241010,#080808);
+    border: 1px solid #333;
+}
+
+.spider-thumb::after {
+    content: "SPIDER GAMING";
+    position: absolute;
+    bottom: 10px;
+    right: 12px;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: rgba(255,255,255,.65);
+}
+
+.spider-thumb.football {
+    background: radial-gradient(circle,#176b37,#071b10);
+}
+
+.spider-thumb.racing {
+    background: linear-gradient(135deg,#162b55,#080808);
+}
+
+.spider-thumb.action {
+    background: linear-gradient(135deg,#6b1515,#120505);
+}
+
+.spider-thumb.reflex {
+    background: radial-gradient(circle,#563a00,#100c00);
+}
+
+.spider-thumb.dodge {
+    background: linear-gradient(135deg,#163e55,#080808);
+}
+
+.spider-thumb.boss {
+    background: radial-gradient(circle,#8b1010,#100000);
+}
+
+.library-card {
+    overflow: hidden;
+    transition: .3s ease;
+}
+
+.library-card:hover {
+    transform: translateY(-6px);
+    border-color: #ff2525;
+    box-shadow: 0 0 20px rgba(255,0,0,.25);
+}
+
+.spider-thumb span {
+    filter: drop-shadow(0 0 15px rgba(255,255,255,.25));
+}
+</style>
+
+<script>
+(function () {
+
+    const library = document.getElementById("spiderLibrary");
+
+    if (!library) return;
+
+    const games = {
+        "FOOTBALL ARENA": ["⚽", "football"],
+        "SPEED LEGENDS": ["🏎️", "racing"],
+        "ACTION ZONE": ["⚔️", "action"],
+        "SPIDER REFLEX": ["🎯", "reflex"],
+        "SPIDER DODGE": ["☄️", "dodge"],
+        "SPIDER BOSS FIGHT": ["👾", "boss"],
+        "STREET RACERS": ["🏁", "racing"]
+    };
+
+    function addThumbnail(card) {
+
+        if (card.querySelector(".spider-thumb")) return;
+
+        const heading = card.querySelector("h3");
+
+        if (!heading) return;
+
+        const name = heading.textContent.trim().toUpperCase();
+        const design = games[name];
+
+        if (!design) return;
+
+        const thumbnail = document.createElement("div");
+
+        thumbnail.className = "spider-thumb " + design[1];
+
+        const emoji = document.createElement("span");
+        emoji.textContent = design[0];
+
+        thumbnail.appendChild(emoji);
+
+        card.insertBefore(thumbnail, card.firstChild);
+    }
+
+    library.querySelectorAll(".library-card").forEach(addThumbnail);
+
+    // Add the new Boss Fight card if it doesn't exist.
+    const existingCards =
+        Array.from(library.querySelectorAll(".library-card"));
+
+    const bossExists = existingCards.some(card => {
+        const heading = card.querySelector("h3");
+        return heading &&
+            heading.textContent.trim().toUpperCase() ===
+            "SPIDER BOSS FIGHT";
+    });
+
+    if (!bossExists && existingCards.length > 0) {
+
+        const bossCard = document.createElement("div");
+
+        bossCard.className = "library-card";
+        bossCard.dataset.category = "action";
+
+        bossCard.innerHTML = `
+            <div class="spider-thumb boss">
+                <span>👾</span>
+            </div>
+            <h3>SPIDER BOSS FIGHT</h3>
+            <p>Challenge the Red Titan and become a champion!</p>
+            <a href="#spiderBoss">
+                <button>PLAY NOW</button>
+            </a>
+        `;
+
+        existingCards[0].parentElement.appendChild(bossCard);
+    }
+
+})();
+</script>
+<!-- END MISSION 12 -->
+<!-- SPIDER SUPABASE CONNECTION -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script>
+(function () {
+    const PROJECT_URL = "https://xggzzbeesisehwjhiefc.supabase.co";
+    const PUBLISHABLE_KEY = "sb_publishable_6h1PsY7d-mfkSC1Nf6WdPQ_VqfvM3C4";
+
+    const { createClient } = window.supabase;
+
+    window.spiderSupabase = createClient(
+        PROJECT_URL,
+        PUBLISHABLE_KEY
+    );
+
+    console.log("SPIDER connected to Supabase!");
+})();
+</script>
+<!-- END SUPABASE CONNECTION -->
+
+</body>
+</html>
